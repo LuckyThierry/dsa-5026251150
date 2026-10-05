@@ -16,13 +16,6 @@ public class Main {
             String[] parts = line.split(" ", 2);
             String operation = parts[0];
 
-            // int quantity = 0;
-            // if(operation.equals("REGISTER") | operation.equals("WITHDRAW")){
-            //     String [] arr = parts[1].split(" ", 2);
-            //     int cost = Integer.parseInt(arr[1]);
-            //     quantity = cost;
-            // }
-
             if(operation.equals("REGISTER")){
                 String[] cek = parts[1].split(" ", 2);
                 String course = cek[0];
