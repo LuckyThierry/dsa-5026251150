@@ -62,7 +62,7 @@ public class Main {
         for (String n : data){
             System.out.println(idx +". "+n);
             idx++;
-        }
+        }   
         System.out.println("Duplicate registrations: "+duplicateCount);
         System.out.println();
 
