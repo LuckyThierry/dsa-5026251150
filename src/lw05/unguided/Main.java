@@ -179,7 +179,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(Main.class.getResourceAsStream("express.txt"));
+        Scanner input = new Scanner(Main.class.getResourceAsStream("delivery.txt"));
 
         size = input.nextInt();
         names = new String[size];
